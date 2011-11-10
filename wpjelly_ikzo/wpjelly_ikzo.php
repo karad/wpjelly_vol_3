@@ -13,11 +13,11 @@ Author URI: http://greative.jp/
 */
 
 function wpjelly_plugin_filter_ikzo($content) {
-    require_once(dirname(__FILE__) . '/mb_str_replace.function.php');
-    $content = mb_str_replace('。', 'もねぇ！　', $content);
+    //挿入その1
     return $content;
 }
 
-add_filter('the_content','wpjelly_plugin_filter_ikzo');
+//挿入その2
 
+//挿入その3
 ?>
